@@ -1,10 +1,13 @@
 package cond;
 
+import java.util.Scanner;
+
 public class Switch1 {
 
     public static void main(String[] args) {
-        int grade = 2;
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("grade 값을 입력하세요 : ");
+        int grade = scanner.nextInt();
         int coupon;
         if (grade == 1) {
             coupon = 1000;

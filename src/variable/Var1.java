@@ -7,6 +7,8 @@ public class Var1 {
         System.out.println(20); //변경 10 -> 20
         System.out.println(20); //변경 10 -> 20
 
+        String a = "qkadk";
+        System.out.println(a.length());
         for (int i = 0; i < 3; i++) {
             System.out.println(20);
         }
